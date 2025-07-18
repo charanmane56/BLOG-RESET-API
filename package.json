@@ -1,0 +1,35 @@
+{
+  "name": "blog-reset-api",
+  "version": "1.0.0",
+  "description": "blog restful api ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "restful",
+    "api",
+    "blog",
+    "api",
+    "reset",
+    "api"
+  ],
+  "author": "Charan Mane",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.846.0",
+    "@aws-sdk/s3-request-presigner": "^3.846.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10"
+  }
+}
